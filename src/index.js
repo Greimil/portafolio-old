@@ -10,15 +10,15 @@ import store from "./componentes/storage/index"
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  // <React.StrictMode>
+  <React.StrictMode>
     <Provider store={store} >
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<Aboutme />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </Provider>
-  // </React.StrictMode>
+  </React.StrictMode>
 );
