@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portafolio/static/css/main.2ac5e1fa.css",
+    "main.js": "/portafolio/static/js/main.59e198c7.js",
+    "static/media/profile.jpg": "/portafolio/static/media/profile.05908a756ad6ba507af0.jpg",
+    "static/media/Vector-removebg.png": "/portafolio/static/media/Vector-removebg.3ef686eaa41ac656beba.png",
+    "static/media/php.png": "/portafolio/static/media/php.4990580e9b615aeebb1f.png",
+    "static/media/calculadora.png": "/portafolio/static/media/calculadora.cce963305e0c6ecbef98.png",
+    "static/media/piedra-papel-tijera.png": "/portafolio/static/media/piedra-papel-tijera.ef71a4bdbc16a482e5eb.png",
+    "static/media/mongodb.png": "/portafolio/static/media/mongodb.788ba14a56a0932b85c7.png",
+    "static/media/ete.png": "/portafolio/static/media/ete.fef6d6303cdaa549f1b0.png",
+    "static/media/Laravel.png": "/portafolio/static/media/Laravel.279e3fcb19d440713887.png",
+    "static/media/image-oscurecida.webp": "/portafolio/static/media/image-oscurecida.e6608cfeaf672ff6d308.webp",
+    "static/media/nodejs.png": "/portafolio/static/media/nodejs.8e341cc00e4ec40c6a27.png",
+    "static/media/html5.png": "/portafolio/static/media/html5.cfb2ba4a6b1c3de295bc.png",
+    "static/media/express.png": "/portafolio/static/media/express.9f7f613a4488d53def24.png",
+    "static/media/css3.png": "/portafolio/static/media/css3.4a6549b8c2b4cda8bb88.png",
+    "static/media/js.png": "/portafolio/static/media/js.3dfb665e058d08c99f28.png",
+    "index.html": "/portafolio/index.html",
+    "static/media/wave.svg": "/portafolio/static/media/wave.914ec1d0e2a15f79fbc2.svg",
+    "main.2ac5e1fa.css.map": "/portafolio/static/css/main.2ac5e1fa.css.map",
+    "main.59e198c7.js.map": "/portafolio/static/js/main.59e198c7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ac5e1fa.css",
+    "static/js/main.59e198c7.js"
+  ]
+}
