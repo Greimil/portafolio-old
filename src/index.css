@@ -1,0 +1,178 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100&family=Montserrat:wght@100&display=swap');
+
+* {
+    padding: 0; 
+     margin: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid #f00 !important; */
+}
+
+
+html,body{
+    height:100%;
+    position: relative;
+}
+
+#root{
+    height: 100%;
+    --gradient: linear-gradient(90deg, rgba(11,217,156,1) 0%, rgba(0,154,204,1) 100%);
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    position: relative;
+    top: 0;
+    width: 100%;
+    /* overflow-x: hidden; */
+
+}
+
+.gradiente {
+    background: rgb(11,217,156);
+    background: linear-gradient(90deg, rgba(11,217,156,1) 0%, rgba(0,154,204,1) 100%);
+}
+
+
+
+
+.h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    
+}
+
+.h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    
+}
+
+.parrafos {
+    font-family: 'Catamaran', sans-serif;
+}
+
+
+.textblack{
+    color: #000 !important;
+}
+
+.h1white {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    
+    color: #fff;
+}
+
+.h2white {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    
+    color: #fff;
+}
+
+.parrafoswhite {
+    font-family: 'Catamaran', sans-serif;
+    color: #fff;
+}
+
+
+
+
+.sombrabtn {
+    -webkit-box-shadow: 2px 9px 20px 4px rgba(0,0,0,0.25); 
+box-shadow: 2px 9px 20px 4px rgba(0,0,0,0.25);
+}
+
+
+
+
+
+
+.activeBtnTecnologias {
+    background: #009ACC;
+    border-radius: 45px;
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    -ms-border-radius: 45px;
+    -o-border-radius: 45px;
+    /* transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear; */
+}
+
+
+.spacer {
+    aspect-ratio: 1440/363;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("./imgs-iconos/Vector-removebg.png") ;
+}
+
+
+.colorTextoFAQ{
+    color: rgba(38, 31, 34, 0.75)
+    
+}
+
+
+.accordion {
+    max-width: 600px;
+    margin: 2rem auto;
+  }
+  
+  .accordion-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    cursor: pointer;
+   
+  }
+  
+
+.disableSelect{
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+}
+
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.bg-curve-img {
+    background-image: url("./imgs-iconos/wave.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: rgb(64, 72, 80); */
+}
+
+.d-none {
+    display: none;
+}
+
+
+
+
+@media (min-width: 1024px) { 
+
+    #servicios{
+        background-image: url("./imgs-iconos/image-oscurecida.webp") !important;
+        background-size: cover !important;
+    }
+
+ }
