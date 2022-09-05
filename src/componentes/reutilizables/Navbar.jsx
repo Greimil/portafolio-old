@@ -7,6 +7,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { toogleTheme } from "../storage/slices/theme";
 import Uloculto from "./Uloculto";
 import {removeblockOverflow} from "../index/logic/logic"
+import  {switchLenguaje} from "../storage/slices/lenguaje/index"
 
 
 
@@ -16,6 +17,7 @@ import {removeblockOverflow} from "../index/logic/logic"
 const Navbar = (props) => {
   const { listamenu, links, isIndex, hash, scroll } = props;
   const { darkmodeOn } = useSelector((state) => state.theme);
+  const lengaje = useSelector((state)=> state.lenguaje.value)
   const dispatch = useDispatch();
   
   const clases = [
@@ -46,9 +48,13 @@ const Navbar = (props) => {
 
   const localStoreLogic = (condition) => {
     condition ? localStorage.setItem("bgColor", "rgba(33, 37, 41, 1)"): localStorage.removeItem("bgColor")
-    
+  }
 
- }
+  const switchLenguajeNav = (condition) => {
+    condition === false ? localStorage.setItem("lenguaje", "En"): localStorage.removeItem("lenguaje")
+  }
+
+
   
 
 
@@ -97,7 +103,10 @@ const Navbar = (props) => {
           />
         </ul>
         <div className="w-[72px] flex justify-center">
-          <span title="Cambiar idioma" className="pr-[12px]  ">
+          <span title="Cambiar idioma" className="pr-[12px]" onClick={()=> {
+            dispatch(switchLenguaje())
+            switchLenguajeNav(lengaje)
+          }} >
             <BiWorld size={"24px"} className="cursor-pointer" />
           </span>
           <span className=" pl-[12px]" onClick={() => dispatch(toogleTheme())}>

@@ -1,0 +1,218 @@
+{
+    "spanish": {
+        "index": {
+            "heroArea": {
+                "h1": "¡Hey hola! Gracias por estar aqui y ser el visitante numero", 
+                "h2": "Soy Grey, desarrollador web ¿Te gustaria colaborar junto a mi?", 
+                "btn": "Manos a la obra!" 
+            }, 
+            "mitrabajo": {
+                "h1": "Mi trabajo", 
+                "h2": "Ver mas trabajos", 
+                "cards": {
+                    "card1": "piedra papel o tijera", 
+                    "card2": "Calculadora JavaScrip", 
+                    "card3": "Etch-a-sketch"
+                }
+            }, "servicios": {
+               "h1": "Servicios", 
+               "Campostxtservice": {
+                 "camptxt1": {
+                    "h3": "Paginas web estaticas", 
+                    "descripcion": "Las páginas web estáticas son básicamente paginas informativas y están enfocadas principalmente a mostrar una información permanente, donde el navegante se limita a obtener dicha información sin poder interactuar con la página visitada"
+                 }, 
+                 "camptxt2": {
+                    "h3": "Paginas web dinamicas", 
+                    "descripcion": "Las paginas web dinamicas son perfectas para clientes que necesiten actualizar constantemente informacion, esto tiene como ventaja mantener actualizados a los visitantes de dicho sitio web, pues la informacion se puede actualizar facilmente"
+                 }, 
+                 "camptxt3": {
+                    "h3": "e-commerce", 
+                    "descripcion":"e-Commerce o comercio electronico, se trata de sitios webs enfocados en el comercio electronico, ideal para clientes que buscan vender sus productos en internet"
+                 }
+               }
+            }
+        }, 
+        
+
+        "contacto": {
+            "heroArea": {
+                "h1": "Antes de enviarme un mensaje, aqui hay unas cuantas cosas que deberias saber:", 
+                "AcordeonMenu1": {
+                    "title": "¿Donde estas localizado?", 
+                    "content": "Actualmente me encuentro residiendo en la ciudad de Azua de compostela, Republica Dominicana."
+                }, "AcordeonMenu2": {
+                    "title": "¿Utilizas alguna herramienta de control de versiones?", 
+                    "content": "Si, asi es, actualmente utilizo git y github para manejar mis proyectos."
+                }, "AcordeonMenu3": {
+                    "title": "¿Haces prototipos de los sitios webs?", 
+                    "content": "Si, normalmente a la hora de trabajar una de las primeras cosas que hago es crear un prototipo del proyecto en figma."
+                }, "AcordeonMenu4": {
+                    "title": "¿Cobras por hora?", 
+                    "content": "No cobro por hora. Prefiero eliminar el estrés de contar las horas. En cambio, cobro una tarifa fija por proyecto, independientemente de la duración."
+                }
+            }, 
+
+            "sendmemsg": {
+                "h2": "Enviame un mensaje",
+                "nombre": "Nombre", 
+                "email": "Correo", 
+                "msg": "Tu mensaje", 
+                "btn": "Enviar",
+                "errors": {
+                    "errName": "Introduce un nombre valido", 
+                    "errEmail": "Introduce un correo valido"
+                }, 
+
+                "msgenviado": "Mensaje enviado a Grey"
+            }, 
+
+            "iconsAreaa": {
+                "h1": "Puedes contactarme a traves de mis redes sociales"
+            }
+
+
+        },
+
+
+        "Sobremi": {
+            "heroArea": {
+                "h1": "Soy GREIMIL NUÑEZ",
+                "h3": "Soy una persona apasionada por la informatica, desde muy joven me gustaron las computadoras, me fascinaba ver a mi padre usar la computadora y siempre me preguntaba lo mismo, '¿Como funciona la computadora en su interior?', esa sed de conocmientos me hizo decantarme por estudiar la licenciatura en informatica, pero no solo eso sino tambien me animo aprender programacion, despues de casi un año estudiando programacion descubri el mundo del desarrolllo web lo cual me llamo mucho la atencion, y desde ese entonces he estado aprendiendo tecnologias de desarrollo web y puliendo mis habilidades."
+            }, 
+
+            "tecnologiasUsadas":  {
+                "h1": "Lenguajes y frameworks usados para el desarrollo web"
+            }
+        }, 
+
+        "reutilizables": {
+            "NavBar": {
+                "index": ["MI TRABAJO", "SERVICIOS", "SOBRE MI", "CONTACTO"], 
+                "contacto": [ "INICIO",  "MI TRABAJO", "SERVICIOS", "SOBRE MI"], 
+                "Sobremi": ["INICIO", "MI TRABAJO", "SERVICIOS", "CONTACTO"]
+            }, 
+
+            "footer": {
+                "h1": "¿Tienes un proyecto en mente? contactame y nos tomamos un cafe", 
+                "btn": "Ir a tomar cafe!", 
+                "copyrigth": "2022. Todos los derechos reservados"
+            }
+        }
+
+
+
+    }, 
+
+
+
+
+
+
+
+
+    "english": {
+        
+        
+        "index": {
+            "heroArea": {
+                "h1": "Hey Hello! Thank you for being here and being visitor number", 
+                "h2": "I'm Grey, web developer. Would you like to collaborate with me?", 
+                "btn": "Let's do it!" 
+            }, 
+            "mitrabajo": {
+                "h1": "My work", 
+                "h2": "See more works", 
+                "cards": {
+                    "card1": "rock paper scissors", 
+                    "card2": "calculator JavaScrip", 
+                    "card3": "Etch-a-sketch"
+                }
+            }, "servicios": {
+               "h1": "Services", 
+               "Campostxtservice": {
+                 "camptxt1": {
+                    "h3": "Static web pages", 
+                    "descripcion": "Static web pages are basically informative pages and are mainly focused on showing permanent information, where the navigator is limited to obtaining said information without being able to interact with the visited page."
+                 }, 
+                 "camptxt2": {
+                    "h3": "Dynamic web pages", 
+                    "descripcion": "Dynamic web pages are perfect for clients who need to constantly update information, this has the advantage of keeping the visitors of said website updated, since the information can be easily updated."
+                 }, 
+                 "camptxt3": {
+                    "h3": "e-commerce", 
+                    "descripcion":"e-Commerce or electronic commerce, these are websites focused on electronic commerce, ideal for customers looking to sell their products on the internet"
+                 }
+               }
+            }
+        }, 
+        
+
+        "contacto": {
+            "heroArea": {
+                "h1": "Before you send me a message, here are a few things you should know:", 
+                "AcordeonMenu1": {
+                    "title": "Where are you located?", 
+                    "content": "I'm currently living in the city of Azua de Compostela, Dominican Republic."
+                }, "AcordeonMenu2": {
+                    "title": "Do you use any version control tool?", 
+                    "content": "Yes, that's right, I currently using git and github to manage my projects."
+                }, "AcordeonMenu3": {
+                    "title": "Do you prototype websites?", 
+                    "content": "Yes, normally when working one of the first things I do is create a prototype of the project in figma."
+                }, "AcordeonMenu4": {
+                    "title": "Do you charge per hour?", 
+                    "content": "I do not charge per hour. I prefer to eliminate the stress of counting the hours. Instead, I charge a flat fee per project, regardless of duration."
+                }
+            }, 
+
+            "sendmemsg": {
+                "h2": "Send me a message",
+                "nombre": "Name", 
+                "email": "Email", 
+                "msg": "Your message", 
+                "btn": "Send",
+                "errors": {
+                    "errName": "Please enter a valid name", 
+                    "errEmail": "Please enter a valid email"
+                }, 
+                "msgenviado": "Message sent to Grey"
+
+
+
+            }, 
+
+            "iconsAreaa": {
+                "h1": "You can contact me through my social networks"
+            }
+        },
+
+
+        "Sobremi": {
+            "heroArea": {
+                "h1": "I'm GREIMIL NUÑEZ",
+                "h3": "I am a person who is passionate about computers, since I was very young I liked computers, I was fascinated to see my father use the computer and I always asked myself the same thing, 'How does the computer work inside it?', that thirst for knowledge made me I opted to study a degree in computer science, but not only that but I also encouraged myself to learn programming, after almost a year studying programming I discovered the world of web development which caught my attention, and since then I have been learning development technologies web and polishing my skills."
+            }, 
+
+            "tecnologiasUsadas":  {
+                "h1": "Languages and frameworks that i use for web development"
+            }
+        }, 
+
+        "reutilizables": {
+            "NavBar": {
+                "index": ["MY WORK", "SERVICES", "ABOUT ME", "CONTACT"], 
+                "contacto": [ "HOMEPAGE",  "MY WORK", "SERVICES", "ABOUT ME"], 
+                "Sobremi": ["HOMEPAGE", "MY WORK", "SERVICES", "CONTACT"]
+            }, 
+
+            "footer": {
+                "h1": "Do you have a project in mind? contact me and we'll have a coffee", 
+                "btn": "Go for coffee!", 
+                "copyrigth": "2022. All rights reserved"
+            }
+        }
+
+
+    }
+
+}

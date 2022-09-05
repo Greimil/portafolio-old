@@ -9,8 +9,9 @@ import { Provider } from "react-redux";
 import store from "./componentes/storage/index"
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+
 root.render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <Provider store={store} >
       <HashRouter>
         <Routes>
@@ -20,5 +21,5 @@ root.render(
         </Routes>
       </HashRouter>
     </Provider>
-  </React.StrictMode>
+  //  </React.StrictMode>
 );

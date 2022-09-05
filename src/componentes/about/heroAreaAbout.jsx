@@ -1,13 +1,14 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import Wave from "../iconos/wave";
-// ${darkmodeOn ? "text-white": "text-black"}//
 import profile from "../../imgs-iconos/profile.jpg";
+import lenguajeData from "../../lenguaje.json"
 
-function HeroAreaAbout(props) {
+function HeroAreaAbout() {
   const { darkmodeOn } = useSelector((state) => state.theme);
+  const lengaje = useSelector((state)=> state.lenguaje.value )
 
-  // mt-[128]
+
 
   return (
     <div className=" bg-inherit ">
@@ -22,7 +23,7 @@ function HeroAreaAbout(props) {
             darkmodeOn ? "h1white" : "h1"
           } text-center lg:text-left text-xl lg:text-4xl mb-2`}
         >
-          SOY GREIMIL NUÑEZ
+          {lengaje? lenguajeData.english.Sobremi.heroArea.h1: lenguajeData.spanish.Sobremi.heroArea.h1}
         </h1>
 
         <h3
@@ -30,15 +31,7 @@ function HeroAreaAbout(props) {
             darkmodeOn ? "text-white" : "text-black"
           } text-justify text-lg lg:text-2xl lg:w-4/5 z-40 pb-16`}
         >
-          Soy una persona apasionada por la informatica, desde muy joven me
-          gustaron las computadoras, me fascinaba ver a mi padre usar la
-          computadora y siempre me preguntaba lo mismo, "¿Como funciona la
-          computadora en su interior?", esa sed de conocmientos me hizo
-          decantarme por estudiar la licenciatura en informatica, pero no solo
-          eso sino tambien me animo aprender programacion, despues de casi un
-          año estudiando programacion descubri el mundo del desarrolllo web lo
-          cual me llamo mucho la atencion, y desde ese entonces he estado
-          aprendiendo tecnologias de desarrollo web y puliendo mis habilidades.
+           {lengaje? lenguajeData.english.Sobremi.heroArea.h3: lenguajeData.spanish.Sobremi.heroArea.h3}
         </h3></div>  
       </div>
 
