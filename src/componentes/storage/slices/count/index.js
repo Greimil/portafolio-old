@@ -21,7 +21,7 @@ export const {setCurrentCount} = CountSlice.actions
 export default CountSlice.reducer
 
 export const setCurrentCountFn = () => (dispatch) => {
-    axios.get("https://portafolioapigrey.herokuapp.com/api/dataindex")
+    axios.get("https://apiportafolio-production.up.railway.app/api/dataindex")
     .then((res) => {
         // console.log(res.data.count);
         dispatch(setCurrentCount(res.data.count))

@@ -40,8 +40,6 @@ function Sendmemsg() {
           }
         }}
         className=" w-4/5 lg:w-2/5"
-        action="http://localhost:5000/api/sendemail"
-        method="post"
       >
         <h2 className="h2 text-xl lg:text-4xl  text-center text-secondary">
           {lengaje
@@ -93,7 +91,7 @@ function Sendmemsg() {
               id="email"
               name="email"
               onChange={(e) => {
-                let regex = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
+                let regex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g;
                 validate(e, regex, setValidateinputs);
               }}
             />

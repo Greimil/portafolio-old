@@ -71,6 +71,10 @@ const enviarForm = () => {
   let msg = document.getElementById("msg");
   
 
+  // http://localhost:5000/api/sendemail local 
+  // https://apiportafolio-production.up.railway.app/api/sendemail nube
+
+
   const requestOptions = {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -80,7 +84,7 @@ const enviarForm = () => {
       msg: msg.value,
     }),
   };
-  fetch("https://portafolioapigrey.herokuapp.com/api/sendemail", requestOptions)
+  fetch("https://apiportafolio-production.up.railway.app/api/sendemail", requestOptions)
     .then((res) => {
      console.log("correo enviado a grey");
     })
