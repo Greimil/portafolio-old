@@ -3,6 +3,7 @@ import Cards from "./cards/cards";
 import game from "../../imgs-iconos/piedra-papel-tijera.png";
 import calcu from "../../imgs-iconos/calculadora.png";
 import ete from "../../imgs-iconos/ete.png";
+import memoryCard from "../../imgs-iconos/memorycard.jpg"
 import lenguajeData from "../../lenguaje.json"
 import {useSelector} from "react-redux"
 
@@ -17,6 +18,12 @@ function Mitabajo() {
           titulo={lengaje? lenguajeData.english.index.mitrabajo.cards.card1: lenguajeData.spanish.index.mitrabajo.cards.card1}
           img={game}
           link="https://greimil.github.io/sicssors/"
+        />
+
+        <Cards
+          titulo="Memory card game"
+          img={memoryCard}
+          link="https://greimil.github.io/ETCH-A-SKETCH/"
         />
 
         <Cards

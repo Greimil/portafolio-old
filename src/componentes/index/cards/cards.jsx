@@ -5,10 +5,10 @@ function Cards(props) {
   return (
     <a href={link} target="_blank" rel="noreferrer" >
       <div className="h-[330px] w-[295px] m-2 rounded-[20px] border-2">
-        <img  className="rounded-t-[20px]" src={img} alt="" />
+        <img  className="rounded-t-[20px] h-4/5 w-full" src={img} alt="" />
 
-        <div className="h-[59px]">
-          <h5 className="text-center">{titulo}</h5>
+        <div className="h-[20%] flex items-center justify-center rounded-b-[20px] bg-secondary">
+          <h5 className="text-center font-semibold">{titulo}</h5>
         </div>
       </div>
     </a>
